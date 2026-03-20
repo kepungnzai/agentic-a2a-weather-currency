@@ -378,7 +378,7 @@ def deploy_agent_engine_app(
         entrypoint_object=entrypoint_object,
         class_methods=class_methods_list,
         env_vars=env_vars,
-        service_account=service_account,
+       # service_account=service_account,
         requirements_file=requirements_file,
         labels=labels_dict,
         min_instances=min_instances,
